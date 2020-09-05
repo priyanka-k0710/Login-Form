@@ -1,0 +1,138 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.ytimg.com/vi/n3dNkooj8rM/maxresdefault.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.position{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  /* align-content: center; */
+  background: rgba(16, 60, 63, 0.164);
+ 
+  /*color: rgb(209, 93, 85);*/
+  width: 300px;
+  height: 100%;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);  */
+  /* box-sizing: absolute; */
+  padding: 65px;
+  margin-top: 70px;
+}
+
+#item {
+  width: 100%;
+}
+
+.login-heading{
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.input-field{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* width: 100%; */
+}
+
+input {
+  /* height: 35px; */
+  height: 34px;;
+  width: 19%;
+  background-color: white;
+  outline: none;
+  border: none;
+  position: absolute;
+  /* border: 2px solid blue; */
+}
+
+
+.fa {
+  color: black;
+  background: white;
+  height: 100%;
+  width: 5%;
+  padding: 10px;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+
+.FRP{
+  /* text-align: left; */
+  font-size: 14px;
+  color: rgb(226, 209, 186);
+}
+.Lo{
+  background-color: rgb(1, 182, 206);
+  color:azure;
+  font-size: 16px;
+
+}
+.lowith{
+  text-align: center;
+  font-size: 14px;
+  color: rgb(226, 209, 186);
+}
+.Fb{
+  color: white;
+  background-color: rgba(9, 53, 173, 0.836);
+}
+.In{
+  color: antiquewhite;
+  background-color: rgba(223, 8, 151, 0.904);
+}
+
+.fb-insta-button{
+ display: flex;
+ flex-direction: row;
+ gap: 19px;
+}
+
+.fa-facebook, .fa-instagram{
+background: transparent;
+color: white;
+padding-right: 15px;
+}
+
+.account-check{
+  font-size: 14px;
+  color: rgb(226, 209, 186);
+}
+
+.account-check-link p{
+font-size: 14px;
+color: white;
+}
+
+.account-check-link a{
+color: rgba(11, 68, 192, 0.836);
+padding-left: 19px;
+}
+
+/* .account-check-link{
+  display: flex;
+  flex-direction: row;
+} */
